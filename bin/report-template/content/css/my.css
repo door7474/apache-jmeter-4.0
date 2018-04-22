@@ -1,0 +1,31 @@
+/*下滑时减去顶部固定距离*/
+div.anchor1{
+    padding-top:51px;
+    margin-top:-51px;
+    z-index: 1;
+  }
+div.anchor2{
+    padding-top:51px;
+    margin-top:-51px;
+    z-index: 2;
+}
+div.anchor3{
+    padding-top:51px;
+    margin-top:-51px;
+    z-index: 3;
+}
+div.anchor4{
+    padding-top:51px;
+    margin-top:-51px;
+    z-index: 4;
+}
+div.anchor5{
+    padding-top:51px;
+    margin-top:-51px;
+    z-index: 5;
+}
+div.anchor6{
+    padding-top:51px;
+    margin-top:-51px;
+    z-index: 6;
+}
