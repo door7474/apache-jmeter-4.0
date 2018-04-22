@@ -4,6 +4,8 @@ import org.apache.jmeter.util.JMeterUtils;
 import java.util.regex.Pattern;
 
 public class myUtils {
+
+    //查询时间粒度工具方法
     public static long getGranularity(long granularity) {
         String my_report_granularity = JMeterUtils.getProperty("my_report_granularity");
         System.out.println("hello");
