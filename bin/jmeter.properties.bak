@@ -183,7 +183,7 @@
 not_in_menu=org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler,org.apache.jmeter.protocol.mongodb.config.MongoSourceElement,\
     org.apache.jmeter.timers.BSFTimer,org.apache.jmeter.modifiers.BSFPreProcessor,org.apache.jmeter.extractor.BSFPostProcessor,org.apache.jmeter.assertions.BSFAssertion,\
     org.apache.jmeter.visualizers.BSFListener,org.apache.jmeter.protocol.java.sampler.BSFSampler,\
-    org.apache.jmeter.protocol.http.control.gui.SoapSamplerGui
+    #org.apache.jmeter.protocol.http.control.gui.SoapSamplerGui
 
 # Number of items in undo history
 # Feature is disabled by default (0) due to known and not fixed bugs:
@@ -490,6 +490,7 @@ remote_hosts=127.0.0.1
 # legitimate values: none, ms, or a format suitable for SimpleDateFormat
 #jmeter.save.saveservice.timestamp_format=ms
 #jmeter.save.saveservice.timestamp_format=yyyy/MM/dd HH:mm:ss.SSS
+jmeter.save.saveservice.timestamp_format=yyyy-MM-dd HH:mm:ss
 
 # For use with Comma-separated value (CSV) files or other formats
 # where the fields' values are separated by specified delimiters.
